@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Reflections!"
-date:   2016-11-15
+date:   2016-11-15 10:00
+comments: true
 ---
 
 - What do you think of pre-compiling your CSS?

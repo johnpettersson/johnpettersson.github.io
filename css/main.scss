@@ -39,11 +39,9 @@ $on-laptop:        800px;
 @import "minima";
 
 
-.page-content .wrapper {
+.post, .home, .about {
     padding: 15px;
     background: #f3f3f3;
-
-    border-radius: 15px;
 }
 
 .page-heading {

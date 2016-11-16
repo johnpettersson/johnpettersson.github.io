@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Första inlägget!"
-date:   2016-11-15
+date:   2016-11-15 09:00
 ---
 
 Sådär! Nu ska bloggposterna fungera, detta är en post för att testa om det funkar, och det verkar det ju som det gör, hurra!
