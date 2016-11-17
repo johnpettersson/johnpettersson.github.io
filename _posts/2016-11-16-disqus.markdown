@@ -5,4 +5,4 @@ date:   2016-11-16
 comments: true
 ---
 
-Nu har den här sidan uppdaterats med stöd för disqus-kommentarer. Hurra!
+This site has just been updated to support disqus-comments on posts. Hooray!

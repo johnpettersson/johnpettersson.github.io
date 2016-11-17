@@ -2,8 +2,11 @@
 layout: page
 title: Info
 permalink: /about/
+image: /assets/john.png
 ---
 
-John Pettersson är en student på programmet Webbprogrammerare på Linnéuniversitetet i Kalmar.
+![John Pettersson](/assets/john.png){: .right}
 
-Den här sidan är gjord som ett första del-moment i kursen [Klientbaserad Webbprogrammering](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/)
+John Pettersson is a student at the programme "Webbprogrammerare" at Linneaus University in Kalmar.
+
+This page is made as an excercise in the course [Client-based Webprogramming](https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/)

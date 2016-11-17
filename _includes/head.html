@@ -11,7 +11,39 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: full_base_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: full_base_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: full_base_url }}">
-  
+
+    <meta content="{{ site.title }}" property="og:site_name"/>
+
+    {% if page.title %}
+        <meta content="{{site.title}} - {{page.title}}" property="og:title" />
+    {% else %}
+        <meta content="{{site.title}}" property="og:title" />
+    {% endif %}
+
+    {% if page.image %}
+    <meta content="{{page.image | prepend: site.url}}" property="og:image" />
+    {% else %}
+    <meta content="{{site.og.image | prepend: site.url}}" property="og:image" />
+    {% endif %}
+
+    {% if page.url %}
+        <meta content="{{ page.url | prepend: site.url }}" property="og:url">
+    {% endif %}
+
+    <meta content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" property="og:description">
+
+    {% if page.date %}
+        <meta content="article" property="og:type" />
+        <meta content="{{page.date}}" property="og:article:published_time" />
+        <meta content="{{site.author}}" property="og:article:author" />
+    {% else %}
+        <meta content="website" property="og:type" />
+    {% endif %}
+
+
+
+
+
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
