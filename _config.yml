@@ -23,7 +23,7 @@ url: https://johnpettersson.github.io # the base hostname & protocol for your si
 github_username:  johnpettersson
 
 og:
-    image: /assets/john.png
+    image: /assets/john200.png
 
 disqus:
     shortname: johnpettersson-github-io
